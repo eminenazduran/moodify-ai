@@ -1,0 +1,9 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Dataset (see README for download link)
+data/raw/*
+!data/raw/.gitkeep
