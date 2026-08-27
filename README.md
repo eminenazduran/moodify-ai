@@ -1,4 +1,4 @@
-# 🎵 Moodify AI
+# Moodify AI
 
 A music intelligence project exploring mood profiles, genre patterns, and song similarity through audio features.
 
