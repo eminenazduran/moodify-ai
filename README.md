@@ -108,8 +108,3 @@ npm run dev
 ```
 
 Open [http://localhost:5173](http://localhost:5173) in your browser.
-
----
-
-## 📜 License
-MIT License. Created as part of an AI & Data Science Portfolio series.
