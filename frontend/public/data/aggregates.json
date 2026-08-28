@@ -1,0 +1,121 @@
+{
+  "total_tracks": 113999,
+  "total_genres": 114,
+  "mood_distribution": [
+    {
+      "mood": "Energetic & Dance",
+      "count": 46517,
+      "percentage": 40.8
+    },
+    {
+      "mood": "Dark & Intense",
+      "count": 35520,
+      "percentage": 31.2
+    },
+    {
+      "mood": "Calm & Acoustic",
+      "count": 26405,
+      "percentage": 23.2
+    },
+    {
+      "mood": "Speech-Heavy",
+      "count": 5557,
+      "percentage": 4.9
+    }
+  ],
+  "genre_profiles": [
+    {
+      "genre_group": "Classical/Jazz/World",
+      "track_count": 33000,
+      "features": {
+        "danceability": 0.546,
+        "energy": 0.556,
+        "valence": 0.473,
+        "acousticness": 0.472,
+        "speechiness": 0.096,
+        "instrumentalness": 0.166,
+        "tempo": 117.202
+      }
+    },
+    {
+      "genre_group": "Electronic/Dance",
+      "track_count": 24000,
+      "features": {
+        "danceability": 0.631,
+        "energy": 0.742,
+        "valence": 0.426,
+        "acousticness": 0.126,
+        "speechiness": 0.084,
+        "instrumentalness": 0.277,
+        "tempo": 126.71
+      }
+    },
+    {
+      "genre_group": "Rock/Metal",
+      "track_count": 22000,
+      "features": {
+        "danceability": 0.486,
+        "energy": 0.779,
+        "valence": 0.471,
+        "acousticness": 0.135,
+        "speechiness": 0.079,
+        "instrumentalness": 0.105,
+        "tempo": 126.2
+      }
+    },
+    {
+      "genre_group": "Pop",
+      "track_count": 17999,
+      "features": {
+        "danceability": 0.592,
+        "energy": 0.61,
+        "valence": 0.508,
+        "acousticness": 0.361,
+        "speechiness": 0.078,
+        "instrumentalness": 0.068,
+        "tempo": 124.044
+      }
+    },
+    {
+      "genre_group": "Acoustic/Folk",
+      "track_count": 10000,
+      "features": {
+        "danceability": 0.524,
+        "energy": 0.42,
+        "valence": 0.446,
+        "acousticness": 0.604,
+        "speechiness": 0.047,
+        "instrumentalness": 0.208,
+        "tempo": 118.21
+      }
+    },
+    {
+      "genre_group": "Hip-Hop/R&B",
+      "track_count": 7000,
+      "features": {
+        "danceability": 0.695,
+        "energy": 0.662,
+        "valence": 0.604,
+        "acousticness": 0.26,
+        "speechiness": 0.122,
+        "instrumentalness": 0.008,
+        "tempo": 117.835
+      }
+    }
+  ],
+  "model_metrics": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.464
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.611,
+      "is_best": true
+    },
+    {
+      "model": "XGBoost",
+      "accuracy": 0.567
+    }
+  ]
+}
